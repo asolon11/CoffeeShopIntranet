@@ -5,6 +5,7 @@ The purpose of this project is to create a program that would isolate a small in
 The connection will have specific websites that is exclusive for that intranet. It would have a chat room that will only be available for the users that are connected to the network. The server will also have a local search engine that would able the user to search and find information on this Intranet. There would also be an option for the customer to able to create their own blog.
 
 • Coffee Shop (Business)
+	
 	o Server
 		♣ Distance only within a certain parameter
 		♣ Password provided
@@ -16,6 +17,7 @@ The connection will have specific websites that is exclusive for that intranet. 
 		♣ Locations
 
 • Guest/Customer
+	
 	o Account
 		♣ Default profile picture
 		♣ Option of short description
