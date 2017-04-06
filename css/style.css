@@ -28,11 +28,10 @@ button {
   margin-right: 20px;
 }
 
-div.search {
-  background-color: white;
+div.form-group {
   float: right;
   border-radius: 10px;
-  width: 150px;
+  width: 350px;
   display: inline;
 }
 
