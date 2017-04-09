@@ -22,16 +22,9 @@ h1 {
   padding: 30px;
 }
 
-button {
-  float: right;
-  margin-right: 20px;
-}
-
-div.form-group {
-  float: right;
-  border-radius: 10px;
-  width: 350px;
-  display: inline;
+div.input-group {
+  float:right;
+  padding: 5px;
 }
 
 ul {
