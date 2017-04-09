@@ -63,9 +63,10 @@ div.content {
   height: 550px;
 
 
-  position: absolute;
+  position: relative; /*changed from absolute to relative to show the extra space*/
   /*margin: auto;*/
   margin-left: 240px;
   margin-right:  350px;
+  margin-bottom: 30px; /*space between div and bottom of the page*/
   overflow: scroll;
 }
