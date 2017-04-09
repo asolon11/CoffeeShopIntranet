@@ -1,6 +1,6 @@
 html, body {
   /*background-color: #9ae59a;*/
-  background-image: url("../image/bambo.jpg");
+  background-image: url("../images/bamboo.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -69,7 +69,7 @@ div.content {
   width: 800px;
   height: 550px;
 
-  
+
   position: absolute;
   /*margin: auto;*/
   margin-left: 240px;
