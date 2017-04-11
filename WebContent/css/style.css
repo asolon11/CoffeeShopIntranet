@@ -72,6 +72,7 @@ div.content {
 	margin-right: 350px;
 	margin-bottom: 30px; /*To have a space between the content div and bottom of page  */
 	overflow: scroll;
+	padding: 10px;
 }
 
 div.userlogin {
