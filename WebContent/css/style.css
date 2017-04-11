@@ -1,72 +1,90 @@
 html, body {
-  /*background-color: #9ae59a;*/
-  background-image: url("../images/bamboo.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  width: 100%;
-  height: 100%;
-  overflow: scroll;
-
+	background-image: url("../images/bamboo.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	overflow: scroll;
 }
 
 h1 {
-  text-align: center;
-  color: white;
-  /*border: 2px hidden black;*/
-  border-radius: 12px;
-  background-color: #493724;
-
-  margin-left: 300px;
-  margin-right: 300px;
-  padding: 30px;
+	text-align: center;
+	color: white;
+	border-radius: 12px;
+	background-color: #493724;
+	width: 565px;
+	height: 140px; 
+	/*height and width prevent h1 from resizing*/
+	
+	margin-left: 300px;
+	margin-right: 300px;
+	padding: 30px;
 }
 
 div.input-group {
-  float:right;
-  padding: 5px;
+	float: right;
+	padding: 5px;
+}
+
+/*For login button on homepage*/
+div.signin {
+	float: left;
+	padding: 5px;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 160px;
-    overflow: hidden;
-
-    background-color: #493724;
-    /*background-color: #7CB4B8;*/
-    border-radius: 10px;
-    position: fixed;
-    float: left;
-    margin-left: 30px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 160px;
+	overflow: hidden;
+	
+	background-color: #493724;
+	border-radius: 10px;
+	position: fixed;
+ 	float: left; 
+	margin-left: 30px;
 }
 
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 }
 
 li a:hover {
-    background-color: #555;
-    color: white;
+	background-color: #555;
+	color: white;
 }
 
 div.content {
-  /*background-color: #68B159;*/
-  background-color: white;
-  border-radius: 10px;
-  width: 800px;
-  height: 550px;
+	background-color: white;
+	border-radius: 10px;
+	width: 800px;
+	height: 550px;
+	/*w: 800px h: 550px;*/
+	
+	position: relative; /*it wouldn't show the space between div and bottom of page when it was absolute*/
+	margin-left: 240px;
+	margin-right: 350px;
+	margin-bottom: 30px; /*To have a space between the content div and bottom of page  */
+	overflow: scroll;
+}
 
-
-  position: relative; /*changed from absolute to relative to show the extra space*/
-  /*margin: auto;*/
-  margin-left: 240px;
-  margin-right:  350px;
-  margin-bottom: 30px; /*space between div and bottom of the page*/
-  overflow: scroll;
+div.userlogin {
+	background-color: white;
+	border-radius: 10px;
+	width: 565px; 
+	height: 220px; 
+	/*w: 500px h: 150px*/
+	
+	position: relative; /*it wouldn't show the space between div and bottom of page when it was absolute*/
+	margin-left: 300px; /*340px*/
+	margin-right: 350px;
+	margin-bottom: 30px; /*To have a space between the content div and bottom of page  */
+	overflow: scroll;
+	padding: 20px;
 }
