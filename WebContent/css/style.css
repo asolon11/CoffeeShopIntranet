@@ -94,3 +94,48 @@ div.userlogin {
 	overflow: scroll;
 	padding: 20px;
 }
+
+/*For Contact Page*/
+#narrow {
+	float: right;	
+	width: 450px;
+	margin-right: 55px;
+	display: inline-block;
+	border-radius: 12px;
+	background: lightblue;
+}
+
+/*For Contact Page*/
+#wide {
+	float: left;
+	width: 450px;
+	margin-left: 55px;
+	display: inline-block;
+	border-radius: 12px;
+	background: lightgreen;
+}
+
+div.contact {
+	padding: 12px 20px;
+    margin: 8px 0;
+}
+
+input {
+	padding: 12px 20px;
+    margin: 8px 0;
+    
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
