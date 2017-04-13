@@ -7,7 +7,6 @@ html, body {
   background-attachment: fixed;
   width: 100%;
   height: 100%;
-  overflow: scroll;
 
 }
 
@@ -70,7 +69,7 @@ div.content {
   width: 800px;
   height: 550px;
 
-  
+
   position: absolute;
   /*margin: auto;*/
   margin-left: 240px;
