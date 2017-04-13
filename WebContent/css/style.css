@@ -1,0 +1,141 @@
+html, body {
+	background-image: url("../images/bamboo.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	border-radius: 12px;
+	background-color: #493724;
+	width: 565px;
+	height: 140px; 
+	/*height and width prevent h1 from resizing*/
+	
+	margin-left: 300px;
+	margin-right: 300px;
+	padding: 30px;
+}
+
+
+
+	
+}
+
+div.input-group {
+	float: right;
+	padding: 5px;
+}
+
+/*For login button on homepage*/
+div.signin {
+	float: left;
+	padding: 5px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 160px;
+	overflow: hidden;
+	
+	background-color: #493724;
+	border-radius: 10px;
+	position: fixed;
+ 	float: left; 
+	margin-left: 30px;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #555;
+	color: white;
+}
+
+div.content {
+	background-color: white;
+	border-radius: 10px;
+	width: 800px;
+	height: 550px;
+	/*w: 800px h: 550px;*/
+	
+	position: relative; /*it wouldn't show the space between div and bottom of page when it was absolute*/
+	margin-left: 240px;
+	margin-right: 350px;
+	margin-bottom: 30px; /*To have a space between the content div and bottom of page  */
+	overflow: scroll;
+	padding: 10px;
+}
+
+div.userlogin {
+	background-color: white;
+	border-radius: 10px;
+	width: 565px; 
+	height: 220px; 
+	/*w: 500px h: 150px*/
+	
+	position: relative; /*it wouldn't show the space between div and bottom of page when it was absolute*/
+	margin-left: 300px; /*340px*/
+	margin-right: 350px;
+	margin-bottom: 30px; /*To have a space between the content div and bottom of page  */
+	overflow: scroll;
+	padding: 20px;
+}
+
+/*For Contact Page*/
+#narrow {
+	float: right;	
+	width: 450px;
+	margin-right: 55px;
+	display: inline-block;
+	border-radius: 12px;
+	background: lightblue;
+}
+
+/*For Contact Page*/
+#wide {
+	float: left;
+	width: 450px;
+	margin-left: 55px;
+	display: inline-block;
+	border-radius: 12px;
+	background: lightgreen;
+}
+
+div.contact {
+	padding: 12px 20px;
+    margin: 8px 0;
+}
+
+input {
+	padding: 12px 20px;
+    margin: 8px 0;
+    
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
