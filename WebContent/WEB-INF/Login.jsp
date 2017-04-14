@@ -14,17 +14,18 @@
 			<h1>Login<hr /></h1>
 			
 			<div class="userlogin">
+			
+				<label for="username">Username:</label>
+				<input type="text" id="username" name="username" required>
+				<br></br>
+				<label for="password">Password:</label>
+				<br>
+				<input type="password" id="password" name="password" required>
 				
-					<label>Username:</label>
-					<input type="text" id="username" style="width: 525px" name="username" required>
-					<br></br>
-					<label>Password: </label>
-					<br>
-					<input type="text" id="password" style="width: 525px" name="password" required>
-				
-					<br></br>
-					<button type="submit" class="btn btn-success">Login</button> 
-					<a href="CreateAccount" class="btn btn-primary" style="float: right">Create An Account</a>
+				<br></br>
+				<button type="submit" class="btn btn-success">Login</button>
+				<a href="CreateAccount" class="btn btn-primary" id="createAcc">Create An Account</a>
+			
 			</div>
 			
 			
