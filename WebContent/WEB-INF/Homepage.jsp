@@ -35,7 +35,7 @@
 		<br>
 
 		<ul>
-			<li><a class="active" href="Home">Home</a></li>
+			<li><a class="active" href="Homepage">Home</a></li>
 			<li><a href="News">News</a></li>
 			<li><a href="Menu">Menu</a></li>
 			<li><a href="#contact">Contact</a></li>

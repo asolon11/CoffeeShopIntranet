@@ -123,6 +123,11 @@ div.contact {
     margin: 8px 0;
 }
 
+div.container {
+	width: 900px;
+	margin-left: 300px;
+}
+
 input {
 	padding: 12px 20px;
     margin: 8px 0;
