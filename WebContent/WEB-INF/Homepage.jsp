@@ -35,11 +35,19 @@
 		<br>
 
 		<ul>
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 			<li><a class="active" href="Homepage">Home</a></li>
 			<li><a href="News">News</a></li>
 			<li><a href="Menu">Menu</a></li>
-			<li><a href="#contact">Contact</a></li>
+			<li><a href="Contact">Contact</a></li>
 			<li><a href="#about">About</a></li>
+			<!-- The following tab should only show up once the user has either logged in or is anonymous -->
+			<c:if test="${sessionScope.login}"> 
+				<li><a href="Chatroom">Chatroom</a></li>
+			</c:if> 
 		</ul>
 
 		<div class="content">

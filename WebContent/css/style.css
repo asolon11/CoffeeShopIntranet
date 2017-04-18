@@ -81,7 +81,7 @@ div.userlogin {
 	background-color: white;
 	border-radius: 10px;
 	width: 565px;
-	height: 290px;
+	height: 260px;
 	
 	position: absolute;
 	margin-left: 300px;
@@ -101,28 +101,38 @@ div.userlogin {
 /*For Contact Page*/
 #narrow {
 	float: right;	
-	width: 450px;
-	margin-right: 55px;
+	width: 350px;
+	margin-left: 750px;
+	margin-right: 170px;
 	display: inline-block;
-	border-radius: 12px;
+	/* border-radius: 12px; */
+	position: absolute;
 	background: lightblue;
+}
+
+/*For Contact Page*/
+address {
+	text-indent: 30px;
 }
 
 /*For Contact Page*/
 #wide {
 	float: left;
-	width: 450px;
-	margin-left: 55px;
+	width: 455px;
+	margin-left: 250px;
 	display: inline-block;
-	border-radius: 12px;
+	/* border-radius: 12px; */
+	position: absolute;
 	background: lightgreen;
 }
 
+/*For Contact Page*/
 div.contact {
 	padding: 12px 20px;
     margin: 8px 0;
 }
 
+<<<<<<< HEAD
 div.container {
 	width: 900px;
 	margin-left: 300px;
@@ -130,21 +140,42 @@ div.container {
 
 input {
 	padding: 12px 20px;
+=======
+/*For Contact Page*/
+#contactName, #email, #phoneNumber {
+	width: 250px;
+	height: 30px;
+	padding: 12px 15px;
+>>>>>>> master
     margin: 8px 0;
-    
+    border: 2px;
+    border-radius: 4px;
     background-color: #f8f8f8;
+    display: inline-block;
     box-sizing: border-box;
 }
 
+/*For Contact Page*/
+label {
+	padding: 10px;
+}
+
+/*For Contact Page*/
+.field * {
+	vertical-align: middle;
+}
+
+/*For Contact Page*/
 textarea {
-    width: 100%;
+    width: 75%;
     height: 150px;
-    padding: 12px 20px;
+    padding: 12px 15px;
     box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
+    border: 2px;
+    border-radius: 4px;  
     background-color: #f8f8f8;
     font-size: 16px;
+    overflow: hidden;
     resize: none;
 }
 
