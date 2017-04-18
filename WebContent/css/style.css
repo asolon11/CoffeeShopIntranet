@@ -76,6 +76,11 @@ div.content {
 	padding: 10px;
 }
 
+div.container {
+	width: 900px;
+	margin-left: 250px;
+}
+
 /*For Login Page*/
 div.userlogin {
 	background-color: white;
