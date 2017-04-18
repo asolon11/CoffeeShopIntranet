@@ -35,13 +35,11 @@
 		<br>
 
 		<ul>
-<<<<<<< HEAD
 			<li><a class="active" href="Homepage">Home</a></li>
 			<li><a href="#news">News</a></li>
-=======
+
 			<li><a class="active" href="Home">Home</a></li>
 			<li><a href="News">News</a></li>
->>>>>>> d11ca1b19e7b3aa85d3c0913c643ea56ea3c759a
 			<li><a href="Menu">Menu</a></li>
 			<li><a href="Contact">Contact</a></li>
 			<li><a href="#about">About</a></li>
