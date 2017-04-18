@@ -102,7 +102,7 @@ div.userlogin {
 #narrow {
 	float: right;	
 	width: 350px;
-	margin-right: 90px;
+	margin-right: 170px;
 	display: inline-block;
 	/* border-radius: 12px; */
 	background: lightblue;
@@ -117,7 +117,7 @@ address {
 #wide {
 	float: left;
 	width: 455px;
-	margin-left: 55px;
+	margin-left: 250px;
 	display: inline-block;
 	/* border-radius: 12px; */
 	background: lightgreen;
