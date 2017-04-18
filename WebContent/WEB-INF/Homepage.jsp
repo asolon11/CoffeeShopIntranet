@@ -12,14 +12,15 @@
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-
+	
+		<!-- Referred to stackoverflow for help with formatting the search bar -->
 		<div class="input-group" style="width: 300px">
 			<input type="text" class="form-control" id="search">
 			<span class="input-group-btn">
 				<button type="button" class="btn btn-primary" placeholder="Search">Search</button>
 			</span>
 		</div>
-
+	
 		<!-- Only if want a login button on homepage rather than have user login first -->
 		<div class="signin">
 			<a href="Login" class="btn btn-primary">Login</a>
@@ -34,8 +35,13 @@
 		<br>
 
 		<ul>
+<<<<<<< HEAD
 			<li><a class="active" href="Homepage">Home</a></li>
 			<li><a href="#news">News</a></li>
+=======
+			<li><a class="active" href="Home">Home</a></li>
+			<li><a href="News">News</a></li>
+>>>>>>> d11ca1b19e7b3aa85d3c0913c643ea56ea3c759a
 			<li><a href="Menu">Menu</a></li>
 			<li><a href="Contact">Contact</a></li>
 			<li><a href="#about">About</a></li>

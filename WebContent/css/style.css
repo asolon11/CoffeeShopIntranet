@@ -22,6 +22,10 @@ h1 {
 	padding: 30px;
 }
 
+<<<<<<< HEAD
+=======
+/*For Search Bar*/
+>>>>>>> d11ca1b19e7b3aa85d3c0913c643ea56ea3c759a
 div.input-group {
 	float: right;
 	padding: 5px;
@@ -75,19 +79,26 @@ div.content {
 	padding: 10px;
 }
 
+/*For Login Page*/
 div.userlogin {
 	background-color: white;
 	border-radius: 10px;
-	width: 565px; 
-	height: 220px; 
-	/*w: 500px h: 150px*/
+	width: 565px;
+	height: 290px;
 	
-	position: relative; /*it wouldn't show the space between div and bottom of page when it was absolute*/
-	margin-left: 300px; /*340px*/
-	margin-right: 350px;
-	margin-bottom: 30px; /*To have a space between the content div and bottom of page  */
-	overflow: scroll;
+	position: absolute;
+	margin-left: 300px;
+	margin-right: 400px;
+	margin-buttom: 30px;
 	padding: 20px;
+}
+
+#username, #password {
+	width: 525px;
+}
+
+#createAcc {
+	float: right;
 }
 
 /*For Contact Page*/
@@ -156,4 +167,16 @@ textarea {
     font-size: 16px;
     overflow: hidden;
     resize: none;
+}
+
+/*For News Page*/
+div.news-content {
+	background-color: white;
+	border-radius: 10px;
+	
+	position: relative; 
+	margin-left: 240px;
+	margin-right: 350px;
+	margin-bottom: 30px; 
+	padding: 20px;
 }
