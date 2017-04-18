@@ -1,3 +1,42 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -8,8 +47,54 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
 
+<body>
+<<<<<<< HEAD
+	
+		<!-- Referred to stackoverflow for help with formatting the search bar -->
+		<div class="input-group" style="width: 300px">
+			<input type="text" class="form-control" id="search">
+			<span class="input-group-btn">
+				<button type="button" class="btn btn-primary" placeholder="Search">Search</button>
+			</span>
+		</div>
+	
+		<!-- Only if want a login button on homepage rather than have user login first -->
+		<div class="signin">
+			<a href="Login" class="btn btn-primary">Login</a>
+		</div>
+
+		<br></br>
+
+		<%-- <h1><c:out value="${pageHeader}" /><hr></hr></h1> --%>
+
+		<center><h1>Menu!- Junimo Cafe<hr></hr></h1> </center>
+
+		<br>
+
+		<ul>
+			<li><a class="active" href="Homepage">Home</a></li>
+			<li><a href="News">News</a></li>
+			<li><a href="Menu">Menu</a></li>
+			<li><a href="#contact">Contact</a></li>
+			<li><a href="#about">About</a></li>
+		</ul>
+
+<!--<body>
+
+		<ul>
+			<li><a class="active" href="Home">Home</a></li>
+			<li><a href="News">News</a></li>
+			<li><a href="Menu">Menu</a></li>
+			<li><a href="#contact">Contact</a></li>
+			<li><a href="#about">About</a></li>
+		</ul>
+
+
+<center>
+=======
+
+>>>>>>> master
 		<div class="input-group" style="width: 300px">
 			<input type="text" class="form-control" id="search">
 			<span class="input-group-btn">
@@ -17,7 +102,7 @@
 			</span>
 		</div>
 		
-		<!-- Only if want a login button on homepage rather than have user login first -->
+		
 		<div class="signin">
 			<a href="Login" class="btn btn-primary">Login</a>
 		</div>
@@ -39,11 +124,11 @@
 
 		
 		<h1>Menu! - Junimo Cafe<hr></hr></h1> 
-</center>
+</center>-->
 
 <div class="container">
 <h3>Our Cafe menu offers different kinds of stuvves... :D</h3>
-<center>
+
 <br>
 <h3>Coffees</h3>
 <table class="table table-bordered" style="background-color:lightgreen;"> 
@@ -76,7 +161,7 @@
 
 
 <br>
-<h3>Cakes and Description</h3>
+<h3>Cakes and Pastries</h3>
 <table class="table table-bordered" style="background-color:lightgreen;"> 
 <tr class="active">
 <th>Name</th><th>Description</th>			
@@ -102,9 +187,14 @@
 <tr><td>Junimo Cone</td><td>Make time for a moment of sweetness with a creamy vanilla soft serve in a crispy cone. Choose from different colors of Junimo, from green to yellow, to even dark chocolate! YeaOh!</td></tr>
 </table>
 
-</center>
 
-</div>
+
+
+
+
+
+</div>-->
+
 
 
 
