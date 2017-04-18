@@ -12,6 +12,14 @@
 	</head>
 	<body>
 		
+		<div class="input-group" style="width: 300px">
+			<input type="text" class="form-control" id="search">
+			<span class="input-group-btn">
+				<button type="button" class="btn btn-primary" placeholder="Search">Search</button>
+			</span>
+		</div>
+		<br><br>
+		
 		<h1>Questions? Concerns? <br>Let Us Know!</h1>
 		
 		<ul>
