@@ -34,7 +34,7 @@
 <h3>Coffees</h3>
 <table class="table table-bordered" style="background-color:lightgreen;"> 
 <tr class="active">
-<th>Name</th><th>Price</th>			
+<th>Name</th><th>Description</th>			
 </tr>
 <tr><td>Regular Coffee</td><td>If you're on the go!</td></tr>
 <tr><td>Iced Coffee</td><td>If you want it kewwwl...</td></tr>
@@ -62,10 +62,10 @@
 
 
 <br>
-<h3>Cakes and Pastries</h3>
+<h3>Cakes and Description</h3>
 <table class="table table-bordered" style="background-color:lightgreen;"> 
 <tr class="active">
-<th>Name</th><th>Price</th>			
+<th>Name</th><th>Description</th>			
 </tr>
 <tr><td>Oreo Cheesecake</td><td>If it seems like a shame to crush the OREO Cookies before you get to eat them, one bite of this delectable cheesecake will change your mind.</td></tr>
 <tr><td>Strawberry Shortcake</td><td>Made from fresh strawberries, it consists of sliced strawberries that have been macerated with whipped cream served over a white cake or biscuit.</td></tr>
@@ -80,7 +80,7 @@
 <h3>Desserts</h3>
 <table class="table table-bordered" style="background-color:#FFFFFF;"> 
 <tr class="active">
-<th>Name</th><th>Price</th>			
+<th>Name</th><th>Description</th>			
 </tr>
 <tr><td>Sundae</td><td>Smooth and creamy vanilla soft serve, topped with your choice of sweet strawberry, yummy caramel, or hot fudge sauce... Mmmm yummy.</td></tr>
 <tr><td>Swirly Bitz</td><td>Deliciousness starts with creamy vanilla soft serve swirled together with your favorite mix-ins. Choose from one of 4 toppings: from Kit-Kat to Oreo to M&M's to Nestle' Crunch! and enjoy the yummy taste.</td></tr>
