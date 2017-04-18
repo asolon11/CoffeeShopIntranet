@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<center>
+
 		<div class="input-group" style="width: 300px">
 			<input type="text" class="form-control" id="search">
 			<span class="input-group-btn">
@@ -23,6 +23,20 @@
 		</div>
 		
 		<br></br>
+		
+		
+		<ul>
+
+			<li><a class="active" href="Homepage">Home</a></li>
+			<li><a href="News">News</a></li>
+			<li><a href="Menu">Menu</a></li>
+			<li><a href="Contact">Contact</a></li>
+			<li><a href="#about">About</a></li>
+		</ul>
+
+
+<center>
+
 		
 		<h1>Menu! - Junimo Cafe<hr></hr></h1> 
 </center>
