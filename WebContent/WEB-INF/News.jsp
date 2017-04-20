@@ -47,7 +47,7 @@
 
 		<br>
 	
-		<h1>News!<hr></hr></h1>
+		<center><h1>News!<hr></hr></h1></center>
 		
 		<br>
 		

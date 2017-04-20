@@ -30,7 +30,7 @@
 
 		<%-- <h1><c:out value="${pageHeader}" /><hr></hr></h1> --%>
 
-		<h1>Welcome to Junimo Cafe!<hr></hr></h1>
+		<center><h1>Welcome to Junimo Cafe!<hr></hr></h1></center>
 
 		<br>
 

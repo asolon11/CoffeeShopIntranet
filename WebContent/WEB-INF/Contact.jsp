@@ -20,7 +20,7 @@
 		</div>
 		<br><br>
 		
-		<h1>Questions? Concerns? <br>Let Us Know!</h1>
+		<center><h1>Questions? Concerns? <br>Let Us Know!</h1></center>
 		
 		<ul>
 			<li><a class="active" href="Homepage">Home</a></li>
