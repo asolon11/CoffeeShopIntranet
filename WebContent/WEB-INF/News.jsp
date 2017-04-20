@@ -12,7 +12,7 @@
 	</head>
 	<body>
 	
-				<!-- Referred to stackoverflow for help with formatting the search bar -->
+		<!-- Referred to stackoverflow for help with formatting the search bar -->
 		<div class="input-group" style="width: 300px">
 			<input type="text" class="form-control" id="search">
 			<span class="input-group-btn">
@@ -21,11 +21,31 @@
 		</div>
 	
 		<!-- Only if want a login button on homepage rather than have user login first -->
-		<div class="signin">
+		<!-- <div class="signin">
 			<a href="Login" class="btn btn-primary">Login</a>
-		</div>
+		</div> -->
+		
+		<!-- This is to only show login button if user isn't logged in; otherwise username is shown and whether if they're an admin or regular user -->
+		<c:choose>
+			<c:when test="${sessionScope.loggedIn}">
+				<p style="padding: 5px">Welcome ${sessionScope.username}! <a href="Logout">Logout</a>
+					<c:choose>
+	    				<c:when test="${sessionScope.isAdmin}">
+	       					<br><strong>You are an admin</strong>   
+	    				</c:when>
+	    				<c:otherwise>
+	        				<h3><strong>You are a regular user</strong></h3>
+	    				</c:otherwise>
+					</c:choose></p>
+			</c:when>
+			<c:otherwise>
+				<div class="signin">
+					<a href="Login" class="btn btn-primary">Login</a>
+				</div>
+			</c:otherwise>
+		</c:choose>
 
-		<br></br>
+		<br>
 	
 		<h1>News!<hr></hr></h1>
 		
@@ -35,19 +55,19 @@
 			<li><a class="active" href="Homepage">Home</a></li>
 			<li><a href="News">News</a></li>
 			<li><a href="Menu">Menu</a></li>
-			<li><a href="#contact">Contact</a></li>
-			<li><a href="#about">About</a></li>
+			<li><a href="Contact">Contact</a></li>
+			<li><a href="About">About</a></li>
 			<!-- The following tab should only show up once the user has either logged in or is anonymous -->
-			<c:if test="${sessionScope.login}"> 
+			<c:if test="${sessionScope.loggedIn}"> 
 				<li><a href="Chatroom">Chatroom</a></li>
 			</c:if> 
 		</ul>
 		
 		<div class="news-content">
 			<!-- The following c:if is so that the edit option shows up only if user is an admin -->
-			<c:if test="${sessionScope.isAdmin}">
+			<p style="float: right"><c:if test="${sessionScope.isAdmin}">
 				<a href="Edit">Edit</a>
-			</c:if>
+			</c:if></p>
 			
 			<h2>We have a new dessert item!</h2>
 			
@@ -57,7 +77,7 @@
 			
 			<p>Any other new information will be added later on.</p>
 		</div>
-		
+		<br>
 
 	</body>
 </html>
