@@ -28,7 +28,7 @@
 
 		<%-- <h1><c:out value="${pageHeader}" /><hr></hr></h1> --%>
 
-		<center><h1>Menu!- Junimo Cafe<hr></hr></h1> </center>
+		<center><h1>Junimo Cafe Menu!<hr></hr></h1> </center>
 
 		<br>
 

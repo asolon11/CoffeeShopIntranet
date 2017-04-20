@@ -56,7 +56,11 @@
 			<li><a href="News">News</a></li>
 			<li><a href="Menu">Menu</a></li>
 			<li><a href="Contact">Contact</a></li>
+<<<<<<< HEAD
 			<li><a href="About">About</a></li>
+=======
+			<li><a href="#about">About</a></li>
+>>>>>>> pictures
 			<!-- The following tab should only show up once the user has either logged in or is anonymous -->
 			<c:if test="${sessionScope.loggedIn}"> 
 				<li><a href="Chatroom">Chatroom</a></li>
@@ -71,7 +75,13 @@
 			
 			<h2>We have a new dessert item!</h2>
 			
-			<p>New dessert information goes here</p>
+			<img src='./images/pudding.gif' style='width:230px;height:130px; display: block; margin: auto;'>
+			<br>
+			<p style="text-align: center;"> 
+			Nice Cold Flan!<br> Just in time to keep you cool for the summer! Yum!
+			<br>
+			Comming in the Summer!
+			</p>
 			
 			<hr />
 			
