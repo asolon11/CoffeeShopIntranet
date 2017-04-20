@@ -69,7 +69,13 @@
 			
 			<h2>We have a new dessert item!</h2>
 			
-			<p>New dessert information goes here</p>
+			<img src='./images/pudding.gif' style='width:230px;height:130px; display: block; margin: auto;'>
+			<br>
+			<p style="text-align: center;"> 
+			Nice Cold Flan!<br> Just in time to keep you cool for the summer! Yum!
+			<br>
+			Comming in the Summer!
+			</p>
 			
 			<hr />
 			
