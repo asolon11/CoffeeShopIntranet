@@ -24,7 +24,7 @@
 		
 		<ul>
 			<li><a class="active" href="Homepage">Home</a></li>
-			<li><a href="#news">News</a></li>
+			<li><a href="News">News</a></li>
 			<li><a href="Menu">Menu</a></li>
 			<li><a href="Contact">Contact</a></li>
 			<li><a href="#about">About</a></li>
