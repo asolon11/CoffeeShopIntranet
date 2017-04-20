@@ -28,7 +28,7 @@
 
 		<%-- <h1><c:out value="${pageHeader}" /><hr></hr></h1> --%>
 
-		<center><h1>Menu!- Junimo Cafe<hr></hr></h1> </center>
+		<center><h1>Menu! - Junimo Cafe<hr></hr></h1> </center>
 
 		<br>
 
@@ -39,6 +39,10 @@
 			<li><a href="Contact">Contact</a></li>
 			<li><a href="About">About</a></li>
 </ul>
+
+			<p style="float: right"><c:if test="${sessionScope.isAdmin}">
+				<a href="Edit">Edit</a>
+			</c:if></p>
 
 <div class="container">
 <h3>Our Cafe menu offers different kinds of stuvves... :D</h3>
