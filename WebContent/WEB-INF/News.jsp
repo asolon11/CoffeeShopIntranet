@@ -65,6 +65,11 @@
 		
 		<div class="news-content">
 			<!-- The following c:if is so that the edit option shows up only if user is an admin -->
+			<p style="float: right">
+				<c:if test="${sessionScope.isAdmin}">
+					<a href="Edit">Edit</a>
+				</c:if>
+			</p>
 
 			
 			<h2>We have a new dessert item!</h2>
@@ -74,7 +79,7 @@
 			<p style="text-align: center;"> 
 			Nice Cold Flan!<br> Just in time to keep you cool for the summer! Yum!
 			<br>
-			Comming in the Summer!
+			Coming in the Summer!
 			</p>
 			
 			<hr />
