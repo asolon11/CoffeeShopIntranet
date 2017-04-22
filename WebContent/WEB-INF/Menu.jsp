@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>    
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -20,13 +22,31 @@
 		</div>
 	
 		<!-- Only if want a login button on homepage rather than have user login first -->
-		<div class="signin">
+		<!-- <div class="signin">
 			<a href="Login" class="btn btn-primary">Login</a>
-		</div>
+		</div> -->
+		
+		<!-- This is to only show login button if user isn't logged in; otherwise username is shown and whether if they're an admin or regular user -->
+		<c:choose>
+			<c:when test="${sessionScope.loggedIn}">
+				<p style="padding: 5px">Welcome ${sessionScope.username}! <a href="Logout">Logout</a>
+					<c:choose>
+	    				<c:when test="${sessionScope.isAdmin}">
+	       					<br><strong>You are an admin</strong>   
+	    				</c:when>
+	    				<c:otherwise>
+	        				<h3><strong>You are a regular user</strong></h3>
+	    				</c:otherwise>
+					</c:choose></p>
+			</c:when>
+			<c:otherwise>
+				<div class="signin">
+					<a href="Login" class="btn btn-primary">Login</a>
+				</div>
+			</c:otherwise>
+		</c:choose>
 
-		<br></br>
-
-		<%-- <h1><c:out value="${pageHeader}" /><hr></hr></h1> --%>
+		<br>
 
 		<center><h1>Menu! - Junimo Cafe<hr></hr></h1> </center>
 
@@ -39,7 +59,11 @@
 			<li><a href="Menu">Menu</a></li>
 			<li><a href="Contact">Contact</a></li>
 			<li><a href="About">About</a></li>
-</ul>
+			<!-- The following tab should only show up once the user has either logged in or is anonymous -->
+			<c:if test="${sessionScope.loggedIn}"> 
+				<li><a href="Chatroom">Chatroom</a></li>
+			</c:if> 
+		</ul>
 
 			<p style="float: right"><c:if test="${sessionScope.isAdmin}">
 				<a href="Edit">Edit</a>

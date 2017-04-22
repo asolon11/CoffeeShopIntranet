@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
- <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>   
-    
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>   
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 	<head>
@@ -27,7 +27,12 @@
 			<li><a href="News">News</a></li>
 			<li><a href="Menu">Menu</a></li>
 			<li><a href="Contact">Contact</a></li>
-			<li><a href="#about">About</a></li>
+			<li><a href="About">About</a></li>
+			<!-- The following tab should only show up once the user has either logged in or is anonymous -->
+			<c:if test="${sessionScope.loggedIn}"> 
+				<li><a href="Chatroom">Chatroom</a></li>
+			</c:if> 
+			
 		</ul>
 		
 		<div id="narrow">
