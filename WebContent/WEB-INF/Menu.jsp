@@ -40,9 +40,7 @@
 							<strong>You are an admin</strong>
 						</c:when>
 						<c:otherwise>
-							<h3>
-								<strong>You are a regular user</strong>
-							</h3>
+							<br><strong>You are a regular user</strong>
 						</c:otherwise>
 					</c:choose>
 				</p>
