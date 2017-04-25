@@ -23,9 +23,11 @@ public class Homepage extends HttpServlet {
 		
 		ServletContext appContext = getServletContext();
 		/* To have a sample user object to test login feature */
-		User user1 = new User(0, "q", "1", true, true);
+		User user1 = new User(0, "q", "1", true, true);				//admin test account
+		User user2 = new User(1, "s", "2", false, true);			//regular customer test account
 		List<User> users = new ArrayList<>();
 		users.add(user1);
+		users.add(user2);
 		
 		appContext.setAttribute("users", users);
 		
