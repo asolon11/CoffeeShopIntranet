@@ -34,7 +34,7 @@
 	       					<br><strong>You are an admin</strong>   
 	    				</c:when>
 	    				<c:otherwise>
-	        				<h3><strong>You are a regular user</strong></h3>
+	        				<br><strong>You are a regular user</strong>
 	    				</c:otherwise>
 					</c:choose></p>
 			</c:when>
@@ -59,7 +59,7 @@
 			<li><a href="About">About</a></li>
 			<!-- The following tab should only show up once the user has either logged in or is anonymous -->
 			<c:if test="${sessionScope.loggedIn}"> 
-				<li><a href="Chatroom">Chatroom</a></li>
+				<li><a href="http://192.168.1.130:8080/examples/websocket-deprecated/chat.html">Chatroom</a></li>
 			</c:if> 
 		</ul>
 		
