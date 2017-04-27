@@ -41,14 +41,10 @@ public class Homepage extends HttpServlet {
             response.sendRedirect( "Login" );
             return;
         } */
-		
-//		request.setAttribute("pageHeader", "Welcome to Junimo Cafe!");
+
 		request.getRequestDispatcher("/WEB-INF/Homepage.jsp").forward(request, response);
 	}
 
 	
-//	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-//		doGet(request, response);
-//	}
 
 }
