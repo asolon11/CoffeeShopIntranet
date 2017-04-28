@@ -191,7 +191,7 @@ div.about {
 	background-color: #e9f5f1;
 	border-radius: 10px;
 	width: 650px;
-	height: 200px;
+	height: 400px;
 	
 	position: relative; /*it wouldn't show the space between div and bottom of page when it was absolute*/
 	margin-left: 380px;

@@ -55,7 +55,6 @@
 			<u><center>Location</u></center>
 			</h2>
 			<center><h4>14784 Rose, FL, 12430</h4></center>
-			
 		
 		</div>
 
