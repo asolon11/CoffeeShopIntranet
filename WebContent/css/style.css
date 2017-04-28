@@ -191,13 +191,12 @@ div.about {
 	background-color: #e9f5f1;
 	border-radius: 10px;
 	width: 650px;
-	height: 550px;
-	/*w: 800px h: 550px;*/
+	height: 200px;
 	
 	position: relative; /*it wouldn't show the space between div and bottom of page when it was absolute*/
 	margin-left: 380px;
 	margin-right: 350px;
-	margin-bottom: 30px; /*To have a space between the content div and bottom of page  */
+	/*margin-bottom: 10px; /*To have a space between the content div and bottom of page  */
 	overflow: scroll;
 	padding: 10px;
 }

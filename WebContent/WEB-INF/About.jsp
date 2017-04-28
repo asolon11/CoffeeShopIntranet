@@ -38,8 +38,8 @@
 		
 		<div class="about">
 		
-			<center><h2>About Junimo Cafe</h2></center>
-			<h4>At the Junimo Cafe, our goal is to provide the freshest and tastiest cakes and pastries, coffees, teas and frappes, and desserts
+			<u><center><h2>About Junimo Cafe</h2></center></u>
+			<h4>At the Junimo Cafe, our goal is to provide the freshest and tastiest pastries, coffees, teas, and desserts
 			to all our customers. Setting in a contemporary, modern, and comfortable location, our mission is to give you the best cafe experience
 			there is. Everything we make is only to the best of our chef's standards. Our specialized coffees and teas are crafted to your liking,
 			just let us know! 
@@ -47,21 +47,17 @@
 			
 			<br>
 			<br>
-			<h4>"Be a yardstick of quality. Some people aren't used to an environment where excellence is expected."
-			Steve Jobs
-			</h4>
+			<i><h4>"Good communication is just as stimulating as black coffee, and just as hard to sleep after" <br>
+			 -Anne Morrow Lindbergh
+			</h4></i>
 			
 			<h2>
 			<u><center>Location</u></center>
 			</h2>
-			<br>
-			<center><h4>14784 Calle Brisa Los Angeles, CA 91709</h4></center>
+			<center><h4>14784 Rose, FL, 12430</h4></center>
 			
 		
 		</div>
-
-	<br>
-	<br>
 
 	</body>
 </html>
