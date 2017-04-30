@@ -24,11 +24,6 @@
 			</span>
 		</div>
 
-		<!-- Only if want a login button on homepage rather than have user login first -->
-		<!-- <div class="signin">
-				<a href="Login" class="btn btn-primary">Login</a>
-			</div> -->
-
 		<!-- This is to only show login button if user isn't logged in; otherwise username is shown and whether if they're an admin or regular user -->
 		<c:choose>
 			<c:when test="${sessionScope.loggedIn}">
@@ -77,13 +72,15 @@
 			</c:if>
 		</ul>
 
-		<p style="float: right">
-			<c:if test="${sessionScope.isAdmin}">
-				<a href="Edit">Edit</a>
-			</c:if>
-		</p>
 
 		<div class="container">
+		
+			<p style="float: right">
+				<c:if test="${sessionScope.isAdmin}">
+					<a href="Edit">Edit</a>
+				</c:if>
+			</p>
+			
 			<h3>Our Cafe menu offers different kinds of drinks, desserts and Pastries!</h3>
 			<center>
 				<br>
@@ -99,8 +96,8 @@
 						<td>If you're on the go!</td>
 					</tr>
 					<tr>
-						<td><!-- <img src='./images/icedCoffee.jpg' style='width:170px;height:240px;'> --><br>Iced Coffee</td>
-						<td>If you want it kewwwl...</td>
+						<td><img src='./images/icedCoffee.jpg' style='width:230px;height:130px;'><br>Iced Coffee</td>
+						<td>If you want your coffee cold..</td>
 					</tr>
 					<tr>
 						<td><img src='./images/chaiLatte.jpg' style='width:230px;height:130px;'><br>Chai Latte</td>
@@ -109,7 +106,7 @@
 							perfect balance of sweet and spicy.</td>
 					</tr>
 					<tr>
-						<td>Mocha Latte</td>
+						<td><img src='./images/mochaLatte.jpg' style='width:230px;height:130px;'><br>Mocha Latte</td>
 						<td>Chocolate sauce blended with espresso and steamed 2% or
 							skim milk, topped with whipped cream and chocolate drizzle</td>
 					</tr>
@@ -118,13 +115,13 @@
 						<td>With a picture on top that changes!</td>
 					</tr>
 					<tr>
-						<td>Java Chip Light Frappe</td>
+						<td><img src='./images/javaChip.jpg' style='width:230px;height:130px;'><br>Java Chip Light Frappe</td>
 						<td>Mocha sauce, Frappuccino chips are blended with coffee and
 							nonfat milk and ice. It's a lighter chip off the original java
 							block.</td>
 					</tr>
 					<tr>
-						<td>Mocha Frappe Blended Coffee</td>
+						<td><img src='./images/mochaFrappe.jpg' style='width:230px;height:130px;'><br>Mocha Frappe Blended Coffee</td>
 						<td>Mocha sauce, Frappuccino roast coffee, milk and ice all
 							come together for a mocha flavor that'll leave you wanting more...</td>
 					</tr>
@@ -178,13 +175,13 @@
 							change your mind.</td>
 					</tr> -->
 					<tr>
-						<td>Strawberry Shortcake</td>
+						<td><img src='./images/strawberryShortcake.jpg' style='width:230px;height:130px;'><br>Strawberry Shortcake</td>
 						<td>Made from fresh strawberries, it consists of sliced
 							strawberries that have been macerated with whipped cream served
 							over a white cake or biscuit.</td>
 					</tr>
 					<tr>
-						<td>Chocolate Mousse</td>
+						<td><img src='./images/chocolateMousseCake.jpg' style='width:230px;height:130px;'><br>Chocolate Mousse</td>
 						<td>Bed of rich chocolate pound cake with delicious chocolate
 							mousse, topped with our signature cream and chocolate chips for a
 							treat like no other.</td>
@@ -200,7 +197,7 @@
 						Peanuts, cashews, coconut flakes or raisins are sometimes added.</td>
 					</tr>
 					<tr>
-						<td>Donut</td>
+						<td><img src='./images/donuts.jpg' style='width:230px;height:130px;'><br>Donut</td>
 						<td>Whether you like, sugar, glazed, chocolate, jelly, or
 							bavarian creme... we got it all for you!</td>
 					</tr>
@@ -228,7 +225,7 @@
 							enjoy the yummy taste.</td>
 					</tr> -->
 					<tr>
-						<td>Swirly Bitz Sundae</td>
+						<td><img src='./images/swirlyBitzSundae.jpg' style='width:230px;height:130px;'><br>Swirly Bitz Sundae</td>
 						<td>Deliciousness starts with creamy soft serve ice cream,<br> Your choice of:
 							Vanilla, Chocolate, or Swirl.<br>Together with your favorite mix-ins:<br>
 							Choose from: Kit-Kat, Oreo, M&M's, Nestle' Crunch.<br>
@@ -237,16 +234,16 @@
 						</td>
 					</tr>
 					<tr>
-						<td>Thickly Milkshake!</td>
+						<td><img src='./images/thicklyMilkshake.jpg' style='width:230px;height:130px;'><br>Thickly Milkshake!</td>
 						<td>Thick, smooth and deliciously creamy soft serve, <br>mixed
 							with your choice of decadent<br>Chocolate, Strawberry or Vanilla
 							syrup <br>for an extra taste of yumminess.</td>
 					</tr>
 					<tr>
-						<td>Junimo Cone</td>
+						<td><img src='./images/junimoCone.jpg' style='width:230px;height:130px;'><br>Junimo Cone</td>
 						<td>Make time for a moment of sweetness with<br>a creamy vanilla
 							soft serve in a crispy cone.<br>Choose from different colors of
-							Junimo!<br>from green to yellow, to even dark chocolate!<br>YeaOh!</td>
+							Junimo!<br>from green to yellow, to even dark chocolate!<br></td>
 					</tr>
 				</table>
 
