@@ -71,13 +71,27 @@
 				</c:if>
 			</p>
 
+			<h2 style="text-align: center;">Coming Soon!</h2>
+			<br>
 			
-			<h2>We have a new dessert item!</h2>
+			<img src='./images/chocoButternutDonut.png' style='width:230px;height:130px; display: block; margin: auto;'>
+		
+			<p style="text-align: center;"> 
+			Choco Butternut Donut!<br><br> A yummy delicacy from the Philippines!
+			<br>
+			Coming May 8th!
+			</p>
+			
+			<hr />
+			<br>
+			
+			<h2 style="text-align: center;">We have a new dessert item!</h2>
+			<br>
 			
 			<img src='./images/pudding.gif' style='width:230px;height:130px; display: block; margin: auto;'>
-			<br>
+			
 			<p style="text-align: center;"> 
-			Nice Cold Flan!<br> Just in time to keep you cool for the summer! Yum!
+			Nice Cold Flan!<br><br>Just in time to keep you cool for the summer! Yum!
 			<br>
 			Coming in the Summer!
 			</p>
