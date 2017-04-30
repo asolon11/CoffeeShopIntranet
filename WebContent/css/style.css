@@ -61,24 +61,121 @@ li a:hover {
 	color: white;
 }
 
-div.content {
+/* div.content {
 	background-color: white;
 	border-radius: 10px;
 	width: 800px;
 	height: 550px;
-	/*w: 800px h: 550px;*/
-	
-	position: relative; /*it wouldn't show the space between div and bottom of page when it was absolute*/
+		
+	position: relative; it wouldn't show the space between div and bottom of page when it was absolute
 	margin-left: 240px;
 	margin-right: 350px;
-	margin-bottom: 30px; /*To have a space between the content div and bottom of page  */
+	margin-bottom: 30px; To have a space between the content div and bottom of page 
 	overflow: scroll;
-	padding: 10px;
+	padding: 30px;
+	
+	background-color: #e9f5f1;
+	
+	font-family: "Times New Roman", Times, serif;
+	font-variant: small-caps;
+	text-indent: 50px;
+	text-font: 40px;
+	text-align: center;
+	
+}
+ */
+ 
+/*Image Slideshow*/
+div.manualSlideshow {
+	border-radius: 10px;
+	width: 650px;
+	height: 420px;
+	
+	position: relative;
+ 	margin-left: 260px;
+	margin-right: 350px;
+	margin-bottom: 30px; 
+	/* background-color: lightgray; */
+	
 }
 
-div.container {
-	width: 900px;
+/*Image Slideshow*/
+.button {
+	border:none;
+	display:inline-block;
+	outline:0;
+	padding:8px 16px;
+	vertical-align:middle;
+	overflow:hidden;
+	text-decoration:none;
+	color:inherit;
+	background-color:inherit;
+	text-align:center;
+	cursor:pointer;
+	white-space:nowrap;
+}
+
+/*Image Slideshow*/
+.button:hover {
+	color:#000!important;
+	background-color:#ccc!important;
+}
+
+/*Image Slideshow*/
+.black, .hover-black:hover{
+	color:#fff!important;
+	background-color:#000!important;
+}
+
+/*Image Slideshow*/
+.display-left {
+	position:absolute;
+	top:50%;
+	left:0%;
+	transform:translate(0%,-50%);
+	-ms-transform:translate(-0%,-50%);
+}
+
+/*Image Slideshow*/
+.display-right {
+	position:absolute;
+	top:50%;
+	right:0%;
+	transform:translate(0%,-50%);
+	-ms-transform:translate(0%,-50%)
+}
+
+/*image slideshow*/
+div.caption {
+	width: 700px;
 	margin-left: 250px;
+	
+	position:absolute;right:0;bottom:0;
+	font-size:18px!important;
+	padding-top:16px!important;padding-bottom:16px!important;
+	
+}
+
+/*Menu*/
+div.container {
+	width: 700px;
+	/* height: 800px; */
+	margin-left: 250px;
+}
+
+/*Menu*/
+td,th {
+	/* text-indent: 10px; */
+	/*   width: 50px;
+  	height: 1px; */
+  overflow: hidden;
+  visibility: visible;
+  border: 1px solid black;
+  padding: 5px;
+  /* background: pink; */
+  text-align: center;
+  vertical-align: middle;
+  text-indent: 5px;
 }
 
 /*For Login Page*/
