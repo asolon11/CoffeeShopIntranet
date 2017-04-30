@@ -24,11 +24,6 @@
 			</span>
 		</div>
 
-		<!-- Only if want a login button on homepage rather than have user login first -->
-		<!-- <div class="signin">
-				<a href="Login" class="btn btn-primary">Login</a>
-			</div> -->
-
 		<!-- This is to only show login button if user isn't logged in; otherwise username is shown and whether if they're an admin or regular user -->
 		<c:choose>
 			<c:when test="${sessionScope.loggedIn}">
@@ -56,7 +51,7 @@
 
 		<center>
 			<h1>
-				Menu! - Junimo Cafe
+				Junimo Cafe Menu!
 				<hr></hr>
 			</h1>
 		</center>
@@ -77,17 +72,19 @@
 			</c:if>
 		</ul>
 
-		<p style="float: right">
-			<c:if test="${sessionScope.isAdmin}">
-				<a href="Edit">Edit</a>
-			</c:if>
-		</p>
 
 		<div class="container">
-			<h3>Our Cafe menu offers different kinds of stuvves... :D</h3>
+		
+			<p style="float: right">
+				<c:if test="${sessionScope.isAdmin}">
+					<a href="Edit">Edit</a>
+				</c:if>
+			</p>
+			
+			<h3>Our Cafe menu offers different kinds of drinks, desserts and Pastries!</h3>
 			<center>
 				<br>
-				<h3>Coffees</h3>
+				<h3>Coffee's and Hot Chocolate</h3>
 				<table class="table table-bordered"
 					style="background-color: lightgreen;">
 					<tr class="active">
@@ -95,30 +92,45 @@
 						<th>Description</th>
 					</tr>
 					<tr>
-						<td>Regular Coffee</td>
+						<td><img src='./images/hotCoffee.jpg' style='width:230px;height:130px;'><br>Regular Coffee</td>
 						<td>If you're on the go!</td>
 					</tr>
 					<tr>
-						<td>Iced Coffee</td>
-						<td>If you want it kewwwl...</td>
+						<td><img src='./images/icedCoffee.jpg' style='width:230px;height:130px;'><br>Iced Coffee</td>
+						<td>If you want your coffee cold..</td>
 					</tr>
 					<tr>
-						<td>Chai Latte</td>
-						<td>Black tea infused with cinnamon, clove, and other warming
-							spices is combined with steamed milk and topped with foam for the
+						<td><img src='./images/chaiLatte.jpg' style='width:230px;height:130px;'><br>Chai Latte</td>
+						<td>Black tea infused with cinnamon, clove, and other warming<br>
+							spices is combined with steamed milk and topped with foam<br> for the
 							perfect balance of sweet and spicy.</td>
 					</tr>
 					<tr>
-						<td>Mocha Latte</td>
+						<td><img src='./images/mochaLatte.jpg' style='width:230px;height:130px;'><br>Mocha Latte</td>
 						<td>Chocolate sauce blended with espresso and steamed 2% or
 							skim milk, topped with whipped cream and chocolate drizzle</td>
+					</tr>
+					<tr>
+						<td><img src='./images/hotChocolate.jpg' style='width:230px;height:130px; display: block; margin: auto;'><br>Hot Chocolate</td>
+						<td>With a picture on top that changes!</td>
+					</tr>
+					<tr>
+						<td><img src='./images/javaChip.jpg' style='width:230px;height:130px;'><br>Java Chip Light Frappe</td>
+						<td>Mocha sauce, Frappuccino chips are blended with coffee and
+							nonfat milk and ice. It's a lighter chip off the original java
+							block.</td>
+					</tr>
+					<tr>
+						<td><img src='./images/mochaFrappe.jpg' style='width:230px;height:130px;'><br>Mocha Frappe Blended Coffee</td>
+						<td>Mocha sauce, Frappuccino roast coffee, milk and ice all
+							come together for a mocha flavor that'll leave you wanting more...</td>
 					</tr>
 				</table>
 
 				<hr>
 
 				<br>
-				<h3>Teas and Frappes</h3>
+				<h3>Teas</h3>
 				<table class="table table-bordered"
 					style="background-color: #FFFFFF;">
 					<tr class="active">
@@ -126,39 +138,22 @@
 						<th>Description</th>
 					</tr>
 					<tr>
-						<td>Emperor's Green Tea</td>
+						<td><img src='./images/greenTea.jpg' style='width:230px;height:130px; display: block; margin: auto;'>Emperor's Green Tea</td>
 						<td>This gently smoky, softly sweet green tea is cultivated at
 							3,500 feet, shrouded in ethereal clouds and mist. It's tasty no
 							matter what language you say it in</td>
 					</tr>
 					<tr>
-						<td>Honey Citrus Mint Tea</td>
+						<td><img src='./images/honeyMintTea.jpg' style='width:230px;height:130px; display: block; margin: auto;'>Honey Citrus Mint Tea</td>
 						<td>A customer creation so popular it's now on the menu. Jade
 							Citrus Mint Green Tea, Peach Herbal Tea, hot water, steamed
 							lemonade and a touch of honey mingle tastefully well together for
 							a tea that comforts from the inside out.</td>
 					</tr>
 					<tr>
-						<td>Sweet Tea</td>
+						<td><img src='./images/sweetTea.jpg' style='width:230px;height:150px; display: block; margin: auto;'>Sweet Tea</td>
 						<td>High quality black iced tea brewed double-strength with
 							real cane sugar. It's the authentic Sweet Tea flavor you love.</td>
-					</tr>
-					<tr>
-						<td>Java Chip Light Frappe</td>
-						<td>Mocha sauce, Frappuccino chips are blended with coffee and
-							nonfat milk and ice. It's a lighter chip off the original java
-							block.</td>
-					</tr>
-					<tr>
-						<td>Mocha Frappe Blended Coffee</td>
-						<td>Mocha sauce, Frappuccino roast coffee, milk and ice all
-							come together for a mocha flavor that'll leave you wanting more...</td>
-					</tr>
-					<tr>
-						<td>Double Chocolaty Chip Creme Frappe Blended Creme</td>
-						<td>Rich mocha-flavored sauce meets up with chocolaty chips,
-							milk and ice for a blender bash. Top it off with sweetened whipped
-							cream and mocha drizzle for a real party in your mouth.</td>
 					</tr>
 				</table>
 
@@ -173,42 +168,36 @@
 						<th>Name</th>
 						<th>Description</th>
 					</tr>
-					<tr>
+<!-- 					<tr>
 						<td>Oreo Cheesecake</td>
 						<td>If it seems like a shame to crush the OREO Cookies before
 							you get to eat them, one bite of this delectable cheesecake will
 							change your mind.</td>
-					</tr>
+					</tr> -->
 					<tr>
-						<td>Strawberry Shortcake</td>
+						<td><img src='./images/strawberryShortcake.jpg' style='width:230px;height:130px;'><br>Strawberry Shortcake</td>
 						<td>Made from fresh strawberries, it consists of sliced
 							strawberries that have been macerated with whipped cream served
 							over a white cake or biscuit.</td>
 					</tr>
 					<tr>
-						<td>Chocolate Mousse</td>
+						<td><img src='./images/chocolateMousseCake.jpg' style='width:230px;height:130px;'><br>Chocolate Mousse</td>
 						<td>Bed of rich chocolate pound cake with delicious chocolate
 							mousse, topped with our signature cream and chocolate chips for a
 							treat like no other.</td>
 					</tr>
 					<tr>
-						<td>Black Forest Cake</td>
-						<td>Mouth-watering layers of liqueur-moistened chocolate cake,
-							brimming with maraschino cherries and finished with generous
-							chocolate curls.</td>
-					</tr>
-					<tr>
-						<td>Cheesy Ensaymada</td>
+						<td><img src='./images/cheeseEnsaymada.png' style='width:230px;height:130px; display: block; margin: auto;'>Cheesy Ensaymada</td>
 						<td>A Filipino pastry, it's a Soft, moist bread topped with
 							butter, loads of sugar and cheesy deliciousness.</td>
 					</tr>
 					<tr>
-						<td>Cheese Roll</td>
-						<td>Sweet, flaky pastry dough filled with cream cheese
-							filling.</td>
+						<td><img src='./images/milkFudge.png' style='width:230px;height:130px; display: block; margin: auto;'>Milk Fudge</td>
+						<td>This candy is a Belizean favorite made from boiled sweetened condensed milk, sugar and spices. 
+						Peanuts, cashews, coconut flakes or raisins are sometimes added.</td>
 					</tr>
 					<tr>
-						<td>Donut</td>
+						<td><img src='./images/donuts.jpg' style='width:230px;height:130px;'><br>Donut</td>
 						<td>Whether you like, sugar, glazed, chocolate, jelly, or
 							bavarian creme... we got it all for you!</td>
 					</tr>
@@ -222,7 +211,7 @@
 						<th>Name</th>
 						<th>Description</th>
 					</tr>
-					<tr>
+<!-- 					<tr>
 						<td>Sundae</td>
 						<td>Smooth and creamy vanilla soft serve, topped with your
 							choice of sweet strawberry, yummy caramel, or hot fudge sauce...
@@ -234,18 +223,27 @@
 							swirled together with your favorite mix-ins. Choose from one of 4
 							toppings: from Kit-Kat to Oreo to M&M's to Nestle' Crunch! and
 							enjoy the yummy taste.</td>
+					</tr> -->
+					<tr>
+						<td><img src='./images/swirlyBitzSundae.jpg' style='width:230px;height:130px;'><br>Swirly Bitz Sundae</td>
+						<td>Deliciousness starts with creamy soft serve ice cream,<br> Your choice of:
+							Vanilla, Chocolate, or Swirl.<br>Together with your favorite mix-ins:<br>
+							Choose from: Kit-Kat, Oreo, M&M's, Nestle' Crunch.<br>
+							Topped with your choice of drizzle: <br>Strawberry, Caramel or Hot Fudge sauce.<br>
+							<p>50 additional topping or sauce</p>
+						</td>
 					</tr>
 					<tr>
-						<td>Thickly Milkshake!</td>
-						<td>Thick, smooth and deliciously creamy soft serve, mixed
-							with your choice of decadent chocolate, strawberry or vanilla
-							syrup for an extra taste of yumminess.</td>
+						<td><img src='./images/thicklyMilkshake.jpg' style='width:230px;height:130px;'><br>Thickly Milkshake!</td>
+						<td>Thick, smooth and deliciously creamy soft serve, <br>mixed
+							with your choice of decadent<br>Chocolate, Strawberry or Vanilla
+							syrup <br>for an extra taste of yumminess.</td>
 					</tr>
 					<tr>
-						<td>Junimo Cone</td>
-						<td>Make time for a moment of sweetness with a creamy vanilla
-							soft serve in a crispy cone. Choose from different colors of
-							Junimo, from green to yellow, to even dark chocolate! YeaOh!</td>
+						<td><img src='./images/junimoCone.jpg' style='width:230px;height:130px;'><br>Junimo Cone</td>
+						<td>Make time for a moment of sweetness with<br>a creamy vanilla
+							soft serve in a crispy cone.<br>Choose from different colors of
+							Junimo!<br>from green to yellow, to even dark chocolate!<br></td>
 					</tr>
 				</table>
 
