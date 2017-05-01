@@ -271,3 +271,18 @@ div.news-content {
 	margin-bottom: 30px; 
 	padding: 20px;
 }
+
+/* About Us Page*/
+div.about {
+	background-color: #e9f5f1;
+	border-radius: 10px;
+	width: 650px;
+	height: 500px;
+	
+	position: relative; /*it wouldn't show the space between div and bottom of page when it was absolute*/
+	margin-left: 380px;
+	margin-right: 350px;
+	/*margin-bottom: 10px; /*To have a space between the content div and bottom of page  */
+	padding: 10px;
+	overflow: scroll;
+}
