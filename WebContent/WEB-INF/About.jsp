@@ -57,12 +57,16 @@
 			 -Anne Morrow Lindbergh
 			</p></i>
 			
+			<hr>
+			
 			<h2>
 			<u><center>Location</u></center>
 			</h2>
 			<center><p>14784 Rose, FL, 12430</p></center>
 		
 		</div>
-
+		
+		<br>
+		
 	</body>
 </html>

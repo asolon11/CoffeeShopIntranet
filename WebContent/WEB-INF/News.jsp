@@ -104,7 +104,7 @@
 			<h2 style="text-align: center;">We have a new dessert item!</h2>
 			<br>
 			
-			<img src='./images/pudding.gif' style='width:230px;height:130px; display: block; margin: auto;'>
+			<img src='./images/flan.gif' style='width:230px;height:130px; display: block; margin: auto;'>
 			
 			<p style="text-align: center;"> 
 			Nice Cold Flan!<br><br>Just in time to keep you cool for the summer! Yum!
