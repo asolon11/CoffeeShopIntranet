@@ -19,12 +19,7 @@
 				<button type="button" class="btn btn-primary" placeholder="Search">Search</button>
 			</span>
 		</div>
-	
-		<!-- Only if want a login button on homepage rather than have user login first -->
-		<!-- <div class="signin">
-			<a href="Login" class="btn btn-primary">Login</a>
-		</div> -->
-		
+
 		<!-- This is to only show login button if user isn't logged in; otherwise username is shown and whether if they're an admin or regular user -->
 		<c:choose>
 			<c:when test="${sessionScope.loggedIn}">
@@ -59,7 +54,10 @@
 			<li><a href="About">About</a></li>
 			<!-- The following tab should only show up once the user has either logged in or is anonymous -->
 			<c:if test="${sessionScope.loggedIn}"> 
-				<li><a href="http://192.168.1.130:8080/examples/websocket-deprecated/chat.html">Chatroom</a></li>
+				<li><a href="http://192.168.1.130:8080/chat.html">Chatroom</a></li>
+				<c:if test="${sessionScope.isAdmin}">
+					<li><a>Blog</a></li>
+				</c:if>
 			</c:if> 
 		</ul>
 		

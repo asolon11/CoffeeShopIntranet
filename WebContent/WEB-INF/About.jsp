@@ -35,7 +35,10 @@
 			<li><a href="About">About</a></li>
 			<!-- The following tab should only show up once the user has either logged in or is anonymous -->
 			<c:if test="${sessionScope.loggedIn}"> 
-				<li><a href="http://192.168.1.130:8080/examples/websocket-deprecated/chat.html">Chatroom</a></li>
+				<li><a href="http://192.168.1.130:8080/chat.html">Chatroom</a></li>
+				<c:if test="${sessionScope.isAdmin}">
+					<li><a>Blog</a></li>
+				</c:if>
 			</c:if> 
 		</ul>
 		
