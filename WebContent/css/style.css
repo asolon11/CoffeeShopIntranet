@@ -197,6 +197,6 @@ div.about {
 	margin-left: 380px;
 	margin-right: 350px;
 	/*margin-bottom: 10px; /*To have a space between the content div and bottom of page  */
-	overflow: scroll;
 	padding: 10px;
+	overflow: scroll;
 }
