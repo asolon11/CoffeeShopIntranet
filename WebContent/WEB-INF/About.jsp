@@ -43,13 +43,12 @@
 			to all our customers. Setting in a contemporary, modern, and comfortable location, our mission is to give you the best cafe experience
 			there is. Everything we make is only to the best of our chef's standards. Our specialized coffees and teas are crafted to your liking,
 			just let us know.
-			<br>
+			<br><br>
 			Junimo Cafe also provides an intranet service. Users within the range of the "cs3337-coffeenet" can access this service. Once connected,
 			users can open their web browser and access one of the many features. Features include the coffee shops web pages, chat system, and blog 
 			entries. 
 			</h4>
 			
-			<br>
 			<br>
 			<i><h4>"Good communication is just as stimulating as black coffee, and just as hard to sleep after" <br>
 			 -Anne Morrow Lindbergh
