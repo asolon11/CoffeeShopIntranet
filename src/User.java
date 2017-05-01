@@ -2,14 +2,20 @@
 public class User {
 	
 	int userId;
+	String firstName;
+	String lastName;
+	String email;
 	String username;
 	String password;
-	boolean isAdmin;
+	boolean isAdmin; /*boolean field to check if user is an admin or not*/
 	boolean loggedIn; /*boolean field to check if user is logged in or not to show certain features*/
 	
-	public User(int userId, String username, String password, boolean isAdmin, boolean loggedIn) {
+	public User(int userId, String firstName, String lastName, String email, String username, String password, boolean isAdmin, boolean loggedIn) {
 		super();
 		this.userId = userId;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.email = email;
 		this.username = username;
 		this.password = password;
 		this.isAdmin = isAdmin;
@@ -24,6 +30,30 @@ public class User {
 		this.userId = userId;
 	}
 
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}	
+	
 	public String getUsername() {
 		return username;
 	}

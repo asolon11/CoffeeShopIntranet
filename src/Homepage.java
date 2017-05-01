@@ -23,8 +23,8 @@ public class Homepage extends HttpServlet {
 		
 		ServletContext appContext = getServletContext();
 		/* To have a sample user object to test login feature */
-		User user1 = new User(0, "q", "1", true, true);				//admin test account
-		User user2 = new User(1, "s", "2", false, true);			//regular customer test account
+		User user1 = new User(0, "a1", "a1 lastname", "a1@test.com", "q", "1", true, true);				//admin test account
+		User user2 = new User(1, "c1", "c1 lastname", "c1@test.com", "s", "2", false, true);			//regular customer test account
 		List<User> users = new ArrayList<>();
 		users.add(user1);
 		users.add(user2);
@@ -34,13 +34,6 @@ public class Homepage extends HttpServlet {
 	}
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-//		response.getWriter().append("Served at: ").append(request.getContextPath());
-		
-        // check if a user has logged in or not
-        /* if( request.getSession().getAttribute( "userid" ) == null ) {
-            response.sendRedirect( "Login" );
-            return;
-        } */
 
 		request.getRequestDispatcher("/WEB-INF/Homepage.jsp").forward(request, response);
 	}
