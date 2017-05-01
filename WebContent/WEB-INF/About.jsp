@@ -42,7 +42,7 @@
 		<div class="about">
 		
 			<u><center><h2>About Junimo Cafe</h2></center></u>
-			<h4>At the Junimo Cafe, our goal is to provide the freshest and tastiest pastries, coffees, teas, and desserts
+			<p>At the Junimo Cafe, our goal is to provide the freshest and tastiest pastries, coffees, teas, and desserts
 			to all our customers. Setting in a contemporary, modern, and comfortable location, our mission is to give you the best cafe experience
 			there is. Everything we make is only to the best of our chef's standards. Our specialized coffees and teas are crafted to your liking,
 			just let us know!
@@ -50,12 +50,12 @@
 			Junimo Cafe also provides an intranet service. Users within the range of the "cs3337-coffeenet" network can access this service. Once connected,
 			users can open their web browser and access one of the many features. Features include the coffee shops web pages, chat system, and blog 
 			entries. 
-			</h4>
+			</p>
 			
 			<br>
-			<i><h4>"Good communication is just as stimulating as black coffee, and just as hard to sleep after" <br>
+			<i><p>"Good communication is just as stimulating as black coffee, and just as hard to sleep after" <br>
 			 -Anne Morrow Lindbergh
-			</h4></i>
+			</p></i>
 			
 			<h2>
 			<u><center>Location</u></center>
