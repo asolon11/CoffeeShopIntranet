@@ -70,7 +70,23 @@
 					<a href="Edit">Edit</a>
 				</c:if>
 			</p>
-
+			
+			<h2 style="text-align: center; text-decoration: underline;">Opening Event!</h2>
+			
+			<h3 style="text-align: center;">Get A Free Drink!</h3>
+			
+			<br>
+			
+			<img src='./images/openingPromotion.jpg' style='width:230px;height:300px; display: block; margin: auto;'>
+		
+			<p style="text-align: center;"> 
+			Create or post on the Blog and <br>you'll be eligible to get a free drink of your choice!<br> Just show us what you posted at the time of ordering!
+			<br>
+			</p>
+			
+			<hr />
+			<br>
+			
 			<h2 style="text-align: center;">Coming Soon!</h2>
 			<br>
 			
