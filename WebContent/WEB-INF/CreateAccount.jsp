@@ -27,6 +27,10 @@
 							<input type="text" style="width: 525px" id="lastName" name="lastName" required>
 						</div>
 						<div>
+							<label for="email">Email:</label>
+							<input type="email" style="width: 525px" id="email" name="email" required>
+						</div>
+						<div>
 							<label for="username">Username:</label>
 							<input type="text" id="username" name="username" required>
 						</div>

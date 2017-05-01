@@ -11,7 +11,7 @@
 	</head>
 	<body>
 		<form action="Login" method="post">
-			<center><h1>Login<hr /></h1></center>
+			<h1>Login<hr /></h1>
 			
 			<div class="userlogin">
 			

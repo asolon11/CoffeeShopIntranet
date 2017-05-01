@@ -168,12 +168,6 @@
 						<th>Name</th>
 						<th>Description</th>
 					</tr>
-<!-- 					<tr>
-						<td>Oreo Cheesecake</td>
-						<td>If it seems like a shame to crush the OREO Cookies before
-							you get to eat them, one bite of this delectable cheesecake will
-							change your mind.</td>
-					</tr> -->
 					<tr>
 						<td><img src='./images/strawberryShortcake.jpg' style='width:230px;height:130px;'><br>Strawberry Shortcake</td>
 						<td>Made from fresh strawberries, it consists of sliced
@@ -211,19 +205,6 @@
 						<th>Name</th>
 						<th>Description</th>
 					</tr>
-<!-- 					<tr>
-						<td>Sundae</td>
-						<td>Smooth and creamy vanilla soft serve, topped with your
-							choice of sweet strawberry, yummy caramel, or hot fudge sauce...
-							Mmmm yummy.</td>
-					</tr>
-					<tr>
-						<td>Swirly Bitz</td>
-						<td>Deliciousness starts with creamy vanilla soft serve
-							swirled together with your favorite mix-ins. Choose from one of 4
-							toppings: from Kit-Kat to Oreo to M&M's to Nestle' Crunch! and
-							enjoy the yummy taste.</td>
-					</tr> -->
 					<tr>
 						<td><img src='./images/swirlyBitzSundae.jpg' style='width:230px;height:130px;'><br>Swirly Bitz Sundae</td>
 						<td>Deliciousness starts with creamy soft serve ice cream,<br> Your choice of:
