@@ -42,7 +42,7 @@
 			<h4>At the Junimo Cafe, our goal is to provide the freshest and tastiest pastries, coffees, teas, and desserts
 			to all our customers. Setting in a contemporary, modern, and comfortable location, our mission is to give you the best cafe experience
 			there is. Everything we make is only to the best of our chef's standards. Our specialized coffees and teas are crafted to your liking,
-			just let us know! 
+			just let us know.
 			</h4>
 			
 			<br>
