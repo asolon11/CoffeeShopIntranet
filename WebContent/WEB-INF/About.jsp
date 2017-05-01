@@ -44,7 +44,7 @@
 			there is. Everything we make is only to the best of our chef's standards. Our specialized coffees and teas are crafted to your liking,
 			just let us know.
 			<br><br>
-			Junimo Cafe also provides an intranet service. Users within the range of the "cs3337-coffeenet" can access this service. Once connected,
+			Junimo Cafe also provides an intranet service. Users within the range of the "cs3337-coffeenet" network can access this service. Once connected,
 			users can open their web browser and access one of the many features. Features include the coffee shops web pages, chat system, and blog 
 			entries. 
 			</h4>
