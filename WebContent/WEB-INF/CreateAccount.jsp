@@ -14,7 +14,7 @@
 	
 		<form action="CreateAccount" method="post">
 			<br>
-			<!-- <h1>Create Your Account!</h1> -->
+			
 				<div class="news-content">
 					<fieldset>
 						<legend>Customer Info</legend>

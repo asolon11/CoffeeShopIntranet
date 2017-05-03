@@ -52,7 +52,7 @@
 			<li><a href="Menu">Menu</a></li>
 			<li><a href="Contact">Contact</a></li>
 			<li><a href="About">About</a></li>
-			<!-- The following tab should only show up once the user has either logged in or is anonymous -->
+			<!-- The following tab should only show up once the user logged in -->
 			<c:if test="${sessionScope.loggedIn}"> 
 				<li><a href="http://192.168.1.130:8080/chat.html">Chatroom</a></li>
 				<c:if test="${sessionScope.isAdmin}">
